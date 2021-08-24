@@ -1,0 +1,102 @@
+// fondo principal
+body{
+	background-color: #F0B851;
+	background-image: url("../img/BACK.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+header{
+	background: url(../img/rainbow2.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+}
+// colorFondos
+.backgroundBlue{
+background-color: #A8CAE9;
+}
+.backgroundOrange{
+	background-color: #F0B851;
+}
+.backgroundPink{
+	background-color: #EDB5B5;
+}
+.backgroundLightblue{
+	background-color: #A3AECF;
+}
+.lightorange{
+	background-color: #F0B851;
+}
+// fuente principal
+.fontFamily{
+	font-family: 'ABeeZee', sans-serif;
+}
+// encabezados principales
+h1{
+	font-family: $font-main;
+	font-size: $fontSizeBig;
+	font-weight: $fontBold;
+}
+h2{
+	font-family: $font-main;
+	font-size: $fontSizeMedium;
+	font-weight: $fontBold;
+}
+h3{
+	font-family: $font-main;
+	font-size: $fontSizeMedium;
+	font-weight: $fontBold;
+}
+h4{
+	font-size: $fontSizeSmall;
+	font-family: $font-main;
+	font-weight: $fontRegular;
+}
+// párrafos genéricos
+p{
+	background-color: $bg-orange;
+	color: $tx-black;
+	font-size: 1.2rem;
+	font-family: $font-main;
+}
+span{
+		letter-spacing: 0.1rem;
+		color: grey;
+	}
+// sección HOME
+// gradiente COMENTARIOS
+
+   .linear-gradient {
+   background: linear-gradient(to top, #E48D8D, #AABDE8);
+}
+   .linear-gradient:hover{
+   background: linear-gradient(to top, #AABDE8, #E48D8D);
+   cursor: pointer;
+   color: white;
+}
+// sección HOW TO USE
+.rotate{
+	transform: rotate(180deg);
+}
+section aside{
+	background-color: $bg-lightorange;
+}
+// sección CONTACT
+.transform:hover{
+   transform: translate(10px, 10px);
+   cursor:cursor;
+}
+
+label{
+	font-family: $font-main;
+}
+// media
+@media screen and (max-width: 430px) {
+  .mediaq{
+  	width: 100px;
+  	height: 500px;
+  }
+  }
